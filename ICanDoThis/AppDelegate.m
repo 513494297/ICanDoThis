@@ -7,6 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "MainTabViewController.h"
+#import "AFNetworkReachabilityManager.h"
+#import "LeftMenuController.h"
+#import "YQSlideMenuController.h"
+#import "Tools.h"
 
 @interface AppDelegate ()
 
@@ -15,9 +20,49 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions{
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    MainTabViewController * m = [[MainTabViewController alloc]init];
+    LeftMenuController  *leftMenuViewController = [[LeftMenuController alloc] init];
+    YQSlideMenuController *sideMenuController = [[YQSlideMenuController alloc] initWithContentViewController:m
+                                                                                      leftMenuViewController:leftMenuViewController];
+    sideMenuController.scaleContent = NO;//是否缩放
+    self.window.rootViewController = sideMenuController;
+     self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    [self weatherNetWork];
+    
     return YES;
+}
+
+- (void)weatherNetWork
+{
+    //设置网络监听
+    AFNetworkReachabilityManager *mgr = [AFNetworkReachabilityManager sharedManager];
+    
+    // 2.设置网络状态改变后的处理
+    [mgr setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+        // 当网络状态改变了, 就会调用这个block
+        switch (status) {
+            case AFNetworkReachabilityStatusUnknown: // 未知网络
+                [Tools showMessage:@"未知网络"];
+                break;
+                
+            case AFNetworkReachabilityStatusNotReachable: // 没有网络(断网)
+                [Tools showMessage:@"网络连接已断开，请检查网络配置"];
+                break;
+                
+            case AFNetworkReachabilityStatusReachableViaWWAN: // 手机自带网络
+                NSLog(@"手机自带网络");
+                break;
+                
+            case AFNetworkReachabilityStatusReachableViaWiFi: // WIFI
+                NSLog(@"WIFI");
+                break;
+        }
+    }];
+    [mgr startMonitoring];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

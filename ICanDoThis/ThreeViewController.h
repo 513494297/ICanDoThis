@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ThreeViewController.h
 //  ICanDoThis
 //
 //  Created by THF on 16/8/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ThreeViewController : UIViewController
 
 @end
-
