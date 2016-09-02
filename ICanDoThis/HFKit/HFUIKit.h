@@ -16,6 +16,7 @@
 #import "NSDate+EA.h"
 #import "NSURL+EA.h"
 #import "EAKeychain.h"
+#import <MJExtension.h>
 
 #define VERSION_GREATER_THAN_OR_EQUAL_TO(v) ([[[UIDevice currentDevice] systemVersion] compare:v options:NSNumericSearch] != NSOrderedAscending)
 

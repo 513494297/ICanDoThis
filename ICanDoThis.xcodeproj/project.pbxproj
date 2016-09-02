@@ -26,6 +26,7 @@
 		E73EA4961D75D8C6008EE355 /* LeftMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73EA4941D75D8C6008EE355 /* LeftMenuController.xib */; settings = {ASSET_TAGS = (); }; };
 		E73EA49D1D75D8F8008EE355 /* UIViewController+YQSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E73EA4991D75D8F8008EE355 /* UIViewController+YQSlideMenu.m */; settings = {ASSET_TAGS = (); }; };
 		E73EA49E1D75D8F8008EE355 /* YQSlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73EA49B1D75D8F8008EE355 /* YQSlideMenuController.m */; settings = {ASSET_TAGS = (); }; };
+		E7552CE51D78300C000C984F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E7552CE41D78300C000C984F /* UIImage+Image.m */; settings = {ASSET_TAGS = (); }; };
 		E760BB011D630253000B4BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E760BB001D630253000B4BAA /* main.m */; };
 		E760BB041D630253000B4BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E760BB031D630253000B4BAA /* AppDelegate.m */; };
 		E760BB0A1D630253000B4BAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E760BB081D630253000B4BAA /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		E7A652861D6F585E0036D064 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E7A652821D6F585E0036D064 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
 		E7A652871D6F585E0036D064 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A652841D6F585E0036D064 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 		E7A652881D6F585E0036D064 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = E7A652851D6F585E0036D064 /* README.mdown */; settings = {ASSET_TAGS = (); }; };
+		E7BD271D1D77DC9D008345DF /* ModelOne.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD271C1D77DC9D008345DF /* ModelOne.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +116,8 @@
 		E73EA4991D75D8F8008EE355 /* UIViewController+YQSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YQSlideMenu.m"; sourceTree = "<group>"; };
 		E73EA49A1D75D8F8008EE355 /* YQSlideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSlideMenuController.h; sourceTree = "<group>"; };
 		E73EA49B1D75D8F8008EE355 /* YQSlideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQSlideMenuController.m; sourceTree = "<group>"; };
+		E7552CE31D78300C000C984F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		E7552CE41D78300C000C984F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		E760BAFC1D630253000B4BAA /* ICanDoThis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICanDoThis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E760BB001D630253000B4BAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E760BB021D630253000B4BAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -179,6 +183,8 @@
 		E7A652831D6F585E0036D064 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E7A652841D6F585E0036D064 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		E7A652851D6F585E0036D064 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		E7BD271B1D77DC9D008345DF /* ModelOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelOne.h; sourceTree = "<group>"; };
+		E7BD271C1D77DC9D008345DF /* ModelOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelOne.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +267,17 @@
 				E73EA49B1D75D8F8008EE355 /* YQSlideMenuController.m */,
 			);
 			path = YQSlideMenuController;
+			sourceTree = "<group>";
+		};
+		E7552CE21D782FF4000C984F /* Catergory */ = {
+			isa = PBXGroup;
+			children = (
+				E7552CE31D78300C000C984F /* UIImage+Image.h */,
+				E7552CE41D78300C000C984F /* UIImage+Image.m */,
+				E7122D7F1D6B54A90097824D /* NSObject+Description.h */,
+				E7122D801D6B54A90097824D /* NSObject+Description.m */,
+			);
+			name = Catergory;
 			sourceTree = "<group>";
 		};
 		E760BAF31D630253000B4BAA = {
@@ -358,6 +375,8 @@
 		E760BB461D631F7E000B4BAA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E7BD271B1D77DC9D008345DF /* ModelOne.h */,
+				E7BD271C1D77DC9D008345DF /* ModelOne.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -372,11 +391,10 @@
 		E774A7901D671406004408C7 /* HFKit */ = {
 			isa = PBXGroup;
 			children = (
+				E7552CE21D782FF4000C984F /* Catergory */,
 				E70542DC1D73DEDD00343E66 /* Tools.h */,
 				E70542DD1D73DEDD00343E66 /* Tools.m */,
 				E774A7911D67142B004408C7 /* HFUIKit.h */,
-				E7122D7F1D6B54A90097824D /* NSObject+Description.h */,
-				E7122D801D6B54A90097824D /* NSObject+Description.m */,
 				E70542D91D73DBD700343E66 /* HttpUtil.h */,
 				E70542DA1D73DBD700343E66 /* HttpUtil.m */,
 			);
@@ -651,12 +669,14 @@
 				E70542FB1D74982500343E66 /* NSDate+EA.m in Sources */,
 				E7A652721D6F57180036D064 /* AFAutoPurgingImageCache.m in Sources */,
 				E70542F91D74982500343E66 /* EAPinYin.m in Sources */,
+				E7BD271D1D77DC9D008345DF /* ModelOne.m in Sources */,
 				E7A652731D6F57180036D064 /* AFImageDownloader.m in Sources */,
 				E7A652881D6F585E0036D064 /* README.mdown in Sources */,
 				E70542FE1D74982500343E66 /* NSMutableDictionary+EA.m in Sources */,
 				E7A6527D1D6F57180036D064 /* AFSecurityPolicy.m in Sources */,
 				E760BB351D63033B000B4BAA /* OneViewController.m in Sources */,
 				E7A652761D6F57180036D064 /* UIButton+AFNetworking.m in Sources */,
+				E7552CE51D78300C000C984F /* UIImage+Image.m in Sources */,
 				E760BB4A1D6324FC000B4BAA /* MainTabViewController.m in Sources */,
 				E7A652801D6F57180036D064 /* AFURLSessionManager.m in Sources */,
 			);

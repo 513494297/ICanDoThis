@@ -1,10 +1,13 @@
 PODS:
   - MJExtension (3.0.9)
+  - YYModel (0.9.9)
 
 DEPENDENCIES:
   - MJExtension
+  - YYModel
 
 SPEC CHECKSUMS:
   MJExtension: 116781b18cb25cee39619e16617f62bb7433ea4e
+  YYModel: 6e2f66abdc429b3f542fc525b262f41b62fc2ae2
 
 COCOAPODS: 0.38.2
