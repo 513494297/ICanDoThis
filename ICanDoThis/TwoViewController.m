@@ -16,7 +16,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.navigationController.navigationBar.translucent = YES;
+    self.edgesForExtendedLayout = UIRectEdgeNone;//在导航栏透明的情况下，默认零点是从（0,0）开始，但是有导航栏，所以我们想要的零点应该是64开始的，所以加上这句话，在xib上就不用在上面留白了，直接从0开始布局，显示的就是navigation下方
 }
 
 - (void)didReceiveMemoryWarning {
