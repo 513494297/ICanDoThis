@@ -7,6 +7,7 @@
 //
 
 #import "FourViewController.h"
+#import "ThreeViw.h"
 
 @interface FourViewController ()
 
@@ -18,6 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
+    self.view = [[ThreeViw alloc]initWithFrame:self.view.frame];
 }
 
 

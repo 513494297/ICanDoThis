@@ -128,7 +128,7 @@ typedef enum {
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:ID
                 ];
-        cell.backgroundColor = [UIColor grayColor];
+        cell.backgroundColor = [UIColor whiteColor];
     }
     
     

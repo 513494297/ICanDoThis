@@ -59,6 +59,9 @@
 		E7A652861D6F585E0036D064 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E7A652821D6F585E0036D064 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
 		E7A652871D6F585E0036D064 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A652841D6F585E0036D064 /* MBProgressHUD.m */; settings = {ASSET_TAGS = (); }; };
 		E7A652881D6F585E0036D064 /* README.mdown in Sources */ = {isa = PBXBuildFile; fileRef = E7A652851D6F585E0036D064 /* README.mdown */; settings = {ASSET_TAGS = (); }; };
+		E7B9C8661D814FAC0074D849 /* PurchaseCarAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B9C8651D814FAC0074D849 /* PurchaseCarAnimationTool.m */; settings = {ASSET_TAGS = (); }; };
+		E7B9C86E1D815C3F0074D849 /* EASearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B9C86B1D815C3F0074D849 /* EASearchBar.m */; settings = {ASSET_TAGS = (); }; };
+		E7B9C86F1D815C3F0074D849 /* EASearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B9C86D1D815C3F0074D849 /* EASearchView.m */; settings = {ASSET_TAGS = (); }; };
 		E7BD271D1D77DC9D008345DF /* ModelOne.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BD271C1D77DC9D008345DF /* ModelOne.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -186,6 +189,13 @@
 		E7A652831D6F585E0036D064 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		E7A652841D6F585E0036D064 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		E7A652851D6F585E0036D064 /* README.mdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.mdown; sourceTree = "<group>"; };
+		E7B9C8641D814FAC0074D849 /* PurchaseCarAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseCarAnimationTool.h; sourceTree = "<group>"; };
+		E7B9C8651D814FAC0074D849 /* PurchaseCarAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseCarAnimationTool.m; sourceTree = "<group>"; };
+		E7B9C8691D8159AE0074D849 /* HFGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFGeometry.h; sourceTree = "<group>"; };
+		E7B9C86A1D815C3F0074D849 /* EASearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASearchBar.h; sourceTree = "<group>"; };
+		E7B9C86B1D815C3F0074D849 /* EASearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASearchBar.m; sourceTree = "<group>"; };
+		E7B9C86C1D815C3F0074D849 /* EASearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EASearchView.h; sourceTree = "<group>"; };
+		E7B9C86D1D815C3F0074D849 /* EASearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EASearchView.m; sourceTree = "<group>"; };
 		E7BD271B1D77DC9D008345DF /* ModelOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelOne.h; sourceTree = "<group>"; };
 		E7BD271C1D77DC9D008345DF /* ModelOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelOne.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -389,6 +399,10 @@
 		E760BB471D631F86000B4BAA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E7B9C86A1D815C3F0074D849 /* EASearchBar.h */,
+				E7B9C86B1D815C3F0074D849 /* EASearchBar.m */,
+				E7B9C86C1D815C3F0074D849 /* EASearchView.h */,
+				E7B9C86D1D815C3F0074D849 /* EASearchView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -399,7 +413,10 @@
 				E7552CE21D782FF4000C984F /* Catergory */,
 				E70542DC1D73DEDD00343E66 /* Tools.h */,
 				E70542DD1D73DEDD00343E66 /* Tools.m */,
+				E7B9C8641D814FAC0074D849 /* PurchaseCarAnimationTool.h */,
+				E7B9C8651D814FAC0074D849 /* PurchaseCarAnimationTool.m */,
 				E774A7911D67142B004408C7 /* HFUIKit.h */,
+				E7B9C8691D8159AE0074D849 /* HFGeometry.h */,
 				E70542D91D73DBD700343E66 /* HttpUtil.h */,
 				E70542DA1D73DBD700343E66 /* HttpUtil.m */,
 			);
@@ -650,10 +667,12 @@
 				E7A652791D6F57180036D064 /* UIRefreshControl+AFNetworking.m in Sources */,
 				E73EA49E1D75D8F8008EE355 /* YQSlideMenuController.m in Sources */,
 				E70542DE1D73DEDD00343E66 /* Tools.m in Sources */,
+				E7B9C86E1D815C3F0074D849 /* EASearchBar.m in Sources */,
 				E7A6527B1D6F57180036D064 /* AFHTTPSessionManager.m in Sources */,
 				E7A6527F1D6F57180036D064 /* AFURLResponseSerialization.m in Sources */,
 				E70543001D74982500343E66 /* NSString+EA.m in Sources */,
 				E74006CB1D7ECBA800E1A9FA /* ThreeViw.m in Sources */,
+				E7B9C8661D814FAC0074D849 /* PurchaseCarAnimationTool.m in Sources */,
 				E760BB041D630253000B4BAA /* AppDelegate.m in Sources */,
 				E7A6527C1D6F57180036D064 /* AFNetworkReachabilityManager.m in Sources */,
 				E70542DB1D73DBD700343E66 /* HttpUtil.m in Sources */,
@@ -674,6 +693,7 @@
 				E760BB3A1D63034A000B4BAA /* TwoViewController.m in Sources */,
 				E70542FB1D74982500343E66 /* NSDate+EA.m in Sources */,
 				E7A652721D6F57180036D064 /* AFAutoPurgingImageCache.m in Sources */,
+				E7B9C86F1D815C3F0074D849 /* EASearchView.m in Sources */,
 				E70542F91D74982500343E66 /* EAPinYin.m in Sources */,
 				E7BD271D1D77DC9D008345DF /* ModelOne.m in Sources */,
 				E7A652731D6F57180036D064 /* AFImageDownloader.m in Sources */,

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ThreeViw : UIView
+@interface ThreeViw : UIScrollView
 
 @end

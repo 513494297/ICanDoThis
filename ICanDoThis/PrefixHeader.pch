@@ -14,6 +14,7 @@
 
 //系统的方法放在前面，否则HFUIKit中找不到UIKit中提供的UI
 #import "HFUIKit.h"
+#import "HFGeometry.h"
 
 #endif
 

@@ -39,7 +39,7 @@
     
     CGContextAddEllipseInRect(context, CGRectMake(100,400,100,100));
     
-    CGContextSetFillColorWithColor(context, [UIColor yellowColor].CGColor);
+    CGContextSetFillColorWithColor(context, [UIColor redColor].CGColor);
     
     CGContextFillPath(context);
     

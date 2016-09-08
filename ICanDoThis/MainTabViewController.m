@@ -49,7 +49,7 @@
     NSArray *aa = @[@[OneViewController.class,    @"主页", @"tab_message", @"tab_message_s"],
                     @[TwoViewController.class,    @"一页", @"tab_flowup", @"tab_flowup_s"],
                     @[ThreeViewController.class,  @"二页", @"tab_medical", @"tab_medical_s"],
-                    @[FourViewController.class,   @"设置", @"tab_me", @"tab_me_s"],
+                    @[FourViewController.class,   @"收藏", @"tab_me", @"tab_me_s"],
                     ];
     NSArray * va = [NSArray array];
     for (NSArray * a  in aa){
