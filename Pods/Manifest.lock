@@ -1,13 +1,18 @@
 PODS:
   - MJExtension (3.0.9)
+  - SDWebImage (3.7.4):
+    - SDWebImage/Core (= 3.7.4)
+  - SDWebImage/Core (3.7.4)
   - YYModel (0.9.9)
 
 DEPENDENCIES:
   - MJExtension
+  - SDWebImage (~> 3.7.3)
   - YYModel
 
 SPEC CHECKSUMS:
   MJExtension: 116781b18cb25cee39619e16617f62bb7433ea4e
+  SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
   YYModel: 6e2f66abdc429b3f542fc525b262f41b62fc2ae2
 
 COCOAPODS: 0.38.2

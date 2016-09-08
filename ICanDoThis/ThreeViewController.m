@@ -7,6 +7,7 @@
 //
 
 #import "ThreeViewController.h"
+#import "ThreeViw.h"
 
 @interface ThreeViewController ()
 
@@ -18,7 +19,9 @@
     [super viewDidLoad];
     self.title = @"哈";
     self.view.backgroundColor = [UIColor whiteColor];
+    self.view = [[ThreeViw alloc]initWithFrame:self.view.frame];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

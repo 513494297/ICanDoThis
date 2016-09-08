@@ -26,6 +26,7 @@
 		E73EA4961D75D8C6008EE355 /* LeftMenuController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E73EA4941D75D8C6008EE355 /* LeftMenuController.xib */; settings = {ASSET_TAGS = (); }; };
 		E73EA49D1D75D8F8008EE355 /* UIViewController+YQSlideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = E73EA4991D75D8F8008EE355 /* UIViewController+YQSlideMenu.m */; settings = {ASSET_TAGS = (); }; };
 		E73EA49E1D75D8F8008EE355 /* YQSlideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = E73EA49B1D75D8F8008EE355 /* YQSlideMenuController.m */; settings = {ASSET_TAGS = (); }; };
+		E74006CB1D7ECBA800E1A9FA /* ThreeViw.m in Sources */ = {isa = PBXBuildFile; fileRef = E74006CA1D7ECBA800E1A9FA /* ThreeViw.m */; settings = {ASSET_TAGS = (); }; };
 		E7552CE51D78300C000C984F /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = E7552CE41D78300C000C984F /* UIImage+Image.m */; settings = {ASSET_TAGS = (); }; };
 		E760BB011D630253000B4BAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E760BB001D630253000B4BAA /* main.m */; };
 		E760BB041D630253000B4BAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E760BB031D630253000B4BAA /* AppDelegate.m */; };
@@ -116,6 +117,8 @@
 		E73EA4991D75D8F8008EE355 /* UIViewController+YQSlideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YQSlideMenu.m"; sourceTree = "<group>"; };
 		E73EA49A1D75D8F8008EE355 /* YQSlideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YQSlideMenuController.h; sourceTree = "<group>"; };
 		E73EA49B1D75D8F8008EE355 /* YQSlideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YQSlideMenuController.m; sourceTree = "<group>"; };
+		E74006C91D7ECBA800E1A9FA /* ThreeViw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViw.h; sourceTree = "<group>"; };
+		E74006CA1D7ECBA800E1A9FA /* ThreeViw.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViw.m; sourceTree = "<group>"; };
 		E7552CE31D78300C000C984F /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
 		E7552CE41D78300C000C984F /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		E760BAFC1D630253000B4BAA /* ICanDoThis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICanDoThis.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -363,6 +366,8 @@
 				E760BB391D63034A000B4BAA /* TwoViewController.xib */,
 				E760BB3C1D630359000B4BAA /* ThreeViewController.h */,
 				E760BB3D1D630359000B4BAA /* ThreeViewController.m */,
+				E74006C91D7ECBA800E1A9FA /* ThreeViw.h */,
+				E74006CA1D7ECBA800E1A9FA /* ThreeViw.m */,
 				E760BB3F1D630369000B4BAA /* FourViewController.h */,
 				E760BB401D630369000B4BAA /* FourViewController.m */,
 				E73EA4921D75D8C6008EE355 /* LeftMenuController.h */,
@@ -648,6 +653,7 @@
 				E7A6527B1D6F57180036D064 /* AFHTTPSessionManager.m in Sources */,
 				E7A6527F1D6F57180036D064 /* AFURLResponseSerialization.m in Sources */,
 				E70543001D74982500343E66 /* NSString+EA.m in Sources */,
+				E74006CB1D7ECBA800E1A9FA /* ThreeViw.m in Sources */,
 				E760BB041D630253000B4BAA /* AppDelegate.m in Sources */,
 				E7A6527C1D6F57180036D064 /* AFNetworkReachabilityManager.m in Sources */,
 				E70542DB1D73DBD700343E66 /* HttpUtil.m in Sources */,

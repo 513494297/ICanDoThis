@@ -20,6 +20,32 @@
     self.view.backgroundColor = [UIColor whiteColor];
 }
 
+
+- (FourViewController *(^)(NSString *))people
+{
+    return ^(NSString *name){
+        return self;
+    };
+}
+
+
+- (FourViewController *(^)())byBus
+{
+    return ^{
+        NSLog(@"坐公交去");
+        return self;
+    };
+}
+
+- (FourViewController *(^)(NSString *))buyVegetables
+{
+    return ^(NSString *buyVege){
+        NSLog(@"买:%@",buyVege);
+        return self;
+    };
+}
+
+
 - (void)test
 {
     dispatch_queue_t queue = dispatch_queue_create("myQueue", DISPATCH_QUEUE_SERIAL);
@@ -35,7 +61,6 @@
     });
     
     NSLog(@"之后 - %@", [NSThread currentThread]);
-    
     
     
     
