@@ -1,4 +1,7 @@
 PODS:
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
   - MJExtension (3.0.9)
   - SDWebImage (3.7.4):
     - SDWebImage/Core (= 3.7.4)
@@ -6,11 +9,13 @@ PODS:
   - YYModel (0.9.9)
 
 DEPENDENCIES:
+  - FMDB
   - MJExtension
   - SDWebImage (~> 3.7.3)
   - YYModel
 
 SPEC CHECKSUMS:
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
   MJExtension: 116781b18cb25cee39619e16617f62bb7433ea4e
   SDWebImage: 247edd7dd80dd6124197b0d6a17846fe9d1df968
   YYModel: 6e2f66abdc429b3f542fc525b262f41b62fc2ae2

@@ -212,3 +212,28 @@ static inline CGSize GetTextSize(NSString *txtContent, UIFont *f, CGFloat txtWid
     
     return s;
 }
+
+
+#pragma mark - 
+#pragma mark 来自SDWebImage
+
+#define dispatch_main_sync_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_sync(dispatch_get_main_queue(), block);\
+}
+
+#define dispatch_main_async_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
+
+
+#pragma mark -
+#pragma mark 获取图片路径
+#define HFAppImageFile(url) [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject] stringByAppendingPathComponent:[url lastPathComponent]]
+
+
