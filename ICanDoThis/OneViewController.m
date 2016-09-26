@@ -43,6 +43,7 @@ typedef enum {
     [self testModel];
     
     [self testXiaLa];
+    
 }
 
 - (void)testXiaLa
@@ -53,7 +54,7 @@ typedef enum {
     _lastOffsetY = -(headH + tabBarH);
     
     self.tableView.contentInset = UIEdgeInsetsMake(headH + tabBarH, 0, 0, 0);
-    
+
     self.automaticallyAdjustsScrollViewInsets = NO;
     
     // 给导航条的背景图片传递一个空图片的UIImage对象
@@ -116,7 +117,12 @@ typedef enum {
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 20;
+    return 10;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 100;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath

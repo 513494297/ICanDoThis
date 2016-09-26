@@ -9,7 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Tools : NSObject
-
+/**
+ 使用md5加密
+ */
++ (NSString *)md5:(NSString *)str;
 
 + (void)showMessage:(NSString *)message;
 /**
