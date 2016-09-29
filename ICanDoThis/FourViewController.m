@@ -20,6 +20,13 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = [UIColor whiteColor];
     self.view = [[ThreeViw alloc]initWithFrame:self.view.frame];
+    
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    
+    [btn mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(@20);
+        make.center.equalTo(self.view);
+    }];
 }
 
 

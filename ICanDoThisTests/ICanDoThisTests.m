@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "TestModel.h"
 @interface ICanDoThisTests : XCTestCase
 
 @end
@@ -27,6 +27,17 @@
 - (void)testExample {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
+
+        TestModel * model = [[TestModel alloc] init];
+        NSInteger num = [model randomLessThanTen];
+        XCTAssert(num<10,@"num should less than 10");
+    
+}
+
+-(void)testModelFunc_randomLessThanTen{
+    TestModel * model = [[TestModel alloc] init];
+    NSInteger num = [model randomLessThanTen];
+    XCTAssert(num<10,@"num should less than 10");
 }
 
 - (void)testPerformanceExample {

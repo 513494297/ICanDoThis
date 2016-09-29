@@ -65,6 +65,7 @@
 		E7AE04021D98CFF700BF5DA7 /* JRObserverInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AE03FF1D98CFF700BF5DA7 /* JRObserverInfo.m */; settings = {ASSET_TAGS = (); }; };
 		E7AE04031D98CFF700BF5DA7 /* NSObject+jr_KVO.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AE04011D98CFF700BF5DA7 /* NSObject+jr_KVO.m */; settings = {ASSET_TAGS = (); }; };
 		E7AE04071D990F1100BF5DA7 /* NSDictionary+NilSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AE04061D990F1100BF5DA7 /* NSDictionary+NilSafe.m */; settings = {ASSET_TAGS = (); }; };
+		E7AE040A1D99282600BF5DA7 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7AE04091D99282600BF5DA7 /* TestModel.m */; settings = {ASSET_TAGS = (); }; };
 		E7B9C8661D814FAC0074D849 /* PurchaseCarAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B9C8651D814FAC0074D849 /* PurchaseCarAnimationTool.m */; settings = {ASSET_TAGS = (); }; };
 		E7B9C86E1D815C3F0074D849 /* EASearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B9C86B1D815C3F0074D849 /* EASearchBar.m */; settings = {ASSET_TAGS = (); }; };
 		E7B9C86F1D815C3F0074D849 /* EASearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7B9C86D1D815C3F0074D849 /* EASearchView.m */; settings = {ASSET_TAGS = (); }; };
@@ -210,6 +211,8 @@
 		E7AE04011D98CFF700BF5DA7 /* NSObject+jr_KVO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+jr_KVO.m"; sourceTree = "<group>"; };
 		E7AE04051D990F1100BF5DA7 /* NSDictionary+NilSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NilSafe.h"; sourceTree = "<group>"; };
 		E7AE04061D990F1100BF5DA7 /* NSDictionary+NilSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NilSafe.m"; sourceTree = "<group>"; };
+		E7AE04081D99282600BF5DA7 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		E7AE04091D99282600BF5DA7 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 		E7B9C8641D814FAC0074D849 /* PurchaseCarAnimationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurchaseCarAnimationTool.h; sourceTree = "<group>"; };
 		E7B9C8651D814FAC0074D849 /* PurchaseCarAnimationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurchaseCarAnimationTool.m; sourceTree = "<group>"; };
 		E7B9C8691D8159AE0074D849 /* HFGeometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFGeometry.h; sourceTree = "<group>"; };
@@ -425,6 +428,8 @@
 			children = (
 				E7BD271B1D77DC9D008345DF /* ModelOne.h */,
 				E7BD271C1D77DC9D008345DF /* ModelOne.m */,
+				E7AE04081D99282600BF5DA7 /* TestModel.h */,
+				E7AE04091D99282600BF5DA7 /* TestModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -765,6 +770,7 @@
 				E70542F91D74982500343E66 /* EAPinYin.m in Sources */,
 				E7BD271D1D77DC9D008345DF /* ModelOne.m in Sources */,
 				E7A652731D6F57180036D064 /* AFImageDownloader.m in Sources */,
+				E7AE040A1D99282600BF5DA7 /* TestModel.m in Sources */,
 				E7A652881D6F585E0036D064 /* README.mdown in Sources */,
 				E70542FE1D74982500343E66 /* NSMutableDictionary+EA.m in Sources */,
 				E7A6527D1D6F57180036D064 /* AFSecurityPolicy.m in Sources */,

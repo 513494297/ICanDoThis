@@ -3,3 +3,5 @@ pod 'MJExtension'
 pod 'YYModel'
 pod 'SDWebImage', '~> 3.7.3’
 pod ‘FMDB’
+pod 'Masonry'
+pod 'IQKeyboardManager'
