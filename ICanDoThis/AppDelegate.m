@@ -12,6 +12,7 @@
 #import "LeftMenuController.h"
 #import "YQSlideMenuController.h"
 #import "Tools.h"
+#import "UncaughtExceptionHandler.h"
 
 @interface AppDelegate ()
 
@@ -33,6 +34,7 @@
     
     [self weatherNetWork];
     
+    InstallUncaughtExceptionHandler();
     return YES;
 }
 
