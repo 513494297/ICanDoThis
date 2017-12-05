@@ -10,6 +10,7 @@
 #import "MainTabViewController.h"
 #import "AFNetworkReachabilityManager.h"
 #import "LeftMenuController.h"
+#import "UncaughtExceptionHandler.h"
 #import "YQSlideMenuController.h"
 #import "PAirSandbox.h"
 #import "Tools.h"
