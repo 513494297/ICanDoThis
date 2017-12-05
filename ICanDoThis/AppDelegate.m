@@ -13,7 +13,6 @@
 #import "YQSlideMenuController.h"
 #import "PAirSandbox.h"
 #import "Tools.h"
-#import "UncaughtExceptionHandler.h"
 
 @interface AppDelegate ()
 

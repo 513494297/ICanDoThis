@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-<<<<<<< HEAD
+
 		044250731F307F4200213756 /* PAirSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 044250721F307F4200213756 /* PAirSandbox.m */; };
 		0481DBB91F289ABC0020544E /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481DBB81F289ABC0020544E /* CameraManager.m */; };
 		0481DBBC1F289ADB0020544E /* NSObject+CurrentC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481DBBB1F289ADB0020544E /* NSObject+CurrentC.m */; };
-=======
+
 		2E848B521D9FB7D700FB5273 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E848B511D9FB7D700FB5273 /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
->>>>>>> 075cc680f8b0947a43356a0ff34c7a62d6210e06
+
 		A71FC1C1700BFC2801C838A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C27978D9DA514D6F29D4FC9 /* libPods.a */; };
 		E70542DB1D73DBD700343E66 /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E70542DA1D73DBD700343E66 /* HttpUtil.m */; };
 		E70542DE1D73DEDD00343E66 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E70542DD1D73DEDD00343E66 /* Tools.m */; };
@@ -100,17 +100,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-<<<<<<< HEAD
+
 		044250711F307F4200213756 /* PAirSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAirSandbox.h; sourceTree = "<group>"; };
 		044250721F307F4200213756 /* PAirSandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAirSandbox.m; sourceTree = "<group>"; };
 		0481DBB71F289ABC0020544E /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
 		0481DBB81F289ABC0020544E /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
 		0481DBBA1F289ADB0020544E /* NSObject+CurrentC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CurrentC.h"; sourceTree = "<group>"; };
 		0481DBBB1F289ADB0020544E /* NSObject+CurrentC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CurrentC.m"; sourceTree = "<group>"; };
-=======
+
 		2E848B501D9FB7D700FB5273 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
 		2E848B511D9FB7D700FB5273 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
->>>>>>> 075cc680f8b0947a43356a0ff34c7a62d6210e06
+
 		6C27978D9DA514D6F29D4FC9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2745B6117E83DE9A8888032 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A35CB964E44D24128CC64ADF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
