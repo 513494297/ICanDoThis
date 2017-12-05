@@ -23,7 +23,7 @@ static char loadOperationKey;
     
     NSMutableDictionary *operations = objc_getAssociatedObject(self, &loadOperationKey);
     
-    //如果可以查到operations,就rerun,反正给视图绑定一个新的,空的operations字典
+    //如果可以查到operations,就rerun,反之给视图绑定一个新的,空的operations字典
     if (operations) {
         return operations;
     }

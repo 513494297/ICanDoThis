@@ -22,9 +22,9 @@
     self.view = [[ThreeViw alloc]initWithFrame:self.view.frame];
     
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    
+    [self.view addSubview:btn];
     [btn mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.equalTo(@20);
+        make.width.height.equalTo(@100);
         make.center.equalTo(self.view);
     }];
 }

@@ -7,7 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
+		044250731F307F4200213756 /* PAirSandbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 044250721F307F4200213756 /* PAirSandbox.m */; };
+		0481DBB91F289ABC0020544E /* CameraManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481DBB81F289ABC0020544E /* CameraManager.m */; };
+		0481DBBC1F289ADB0020544E /* NSObject+CurrentC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481DBBB1F289ADB0020544E /* NSObject+CurrentC.m */; };
+=======
 		2E848B521D9FB7D700FB5273 /* UncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E848B511D9FB7D700FB5273 /* UncaughtExceptionHandler.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+>>>>>>> 075cc680f8b0947a43356a0ff34c7a62d6210e06
 		A71FC1C1700BFC2801C838A2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C27978D9DA514D6F29D4FC9 /* libPods.a */; };
 		E70542DB1D73DBD700343E66 /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E70542DA1D73DBD700343E66 /* HttpUtil.m */; };
 		E70542DE1D73DEDD00343E66 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = E70542DD1D73DEDD00343E66 /* Tools.m */; };
@@ -94,8 +100,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
+		044250711F307F4200213756 /* PAirSandbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PAirSandbox.h; sourceTree = "<group>"; };
+		044250721F307F4200213756 /* PAirSandbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PAirSandbox.m; sourceTree = "<group>"; };
+		0481DBB71F289ABC0020544E /* CameraManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraManager.h; sourceTree = "<group>"; };
+		0481DBB81F289ABC0020544E /* CameraManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraManager.m; sourceTree = "<group>"; };
+		0481DBBA1F289ADB0020544E /* NSObject+CurrentC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CurrentC.h"; sourceTree = "<group>"; };
+		0481DBBB1F289ADB0020544E /* NSObject+CurrentC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CurrentC.m"; sourceTree = "<group>"; };
+=======
 		2E848B501D9FB7D700FB5273 /* UncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UncaughtExceptionHandler.h; sourceTree = "<group>"; };
 		2E848B511D9FB7D700FB5273 /* UncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UncaughtExceptionHandler.m; sourceTree = "<group>"; };
+>>>>>>> 075cc680f8b0947a43356a0ff34c7a62d6210e06
 		6C27978D9DA514D6F29D4FC9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2745B6117E83DE9A8888032 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A35CB964E44D24128CC64ADF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -258,6 +273,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044250701F307F4200213756 /* AirSandbox */ = {
+			isa = PBXGroup;
+			children = (
+				044250711F307F4200213756 /* PAirSandbox.h */,
+				044250721F307F4200213756 /* PAirSandbox.m */,
+			);
+			path = AirSandbox;
+			sourceTree = "<group>";
+		};
 		4FA18E4DBB7BF687D30C1332 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +442,10 @@
 				E74006CA1D7ECBA800E1A9FA /* ThreeViw.m */,
 				E760BB3F1D630369000B4BAA /* FourViewController.h */,
 				E760BB401D630369000B4BAA /* FourViewController.m */,
+				0481DBB71F289ABC0020544E /* CameraManager.h */,
+				0481DBB81F289ABC0020544E /* CameraManager.m */,
+				0481DBBA1F289ADB0020544E /* NSObject+CurrentC.h */,
+				0481DBBB1F289ADB0020544E /* NSObject+CurrentC.m */,
 				E73EA4921D75D8C6008EE355 /* LeftMenuController.h */,
 				E73EA4931D75D8C6008EE355 /* LeftMenuController.m */,
 				E73EA4941D75D8C6008EE355 /* LeftMenuController.xib */,
@@ -453,13 +481,14 @@
 		E774A7901D671406004408C7 /* HFKit */ = {
 			isa = PBXGroup;
 			children = (
+				044250701F307F4200213756 /* AirSandbox */,
 				E7AE04041D990F1100BF5DA7 /* NSDictionary-NilSafe */,
 				E7AE03FD1D98CFE400BF5DA7 /* KVO */,
 				E7552CE21D782FF4000C984F /* Catergory */,
-				E70542DC1D73DEDD00343E66 /* Tools.h */,
-				E70542DD1D73DEDD00343E66 /* Tools.m */,
 				E7B9C8641D814FAC0074D849 /* PurchaseCarAnimationTool.h */,
 				E7B9C8651D814FAC0074D849 /* PurchaseCarAnimationTool.m */,
+				E70542DC1D73DEDD00343E66 /* Tools.h */,
+				E70542DD1D73DEDD00343E66 /* Tools.m */,
 				E774A7911D67142B004408C7 /* HFUIKit.h */,
 				E7B9C8691D8159AE0074D849 /* HFGeometry.h */,
 				E789279D1D9103B8008F3D2A /* RSA.h */,
@@ -629,6 +658,7 @@
 				TargetAttributes = {
 					E760BAFB1D630253000B4BAA = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 9J5ZRW858N;
 					};
 					E760BB141D630253000B4BAA = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -744,12 +774,14 @@
 				E74006CB1D7ECBA800E1A9FA /* ThreeViw.m in Sources */,
 				E7B9C8661D814FAC0074D849 /* PurchaseCarAnimationTool.m in Sources */,
 				E78927A11D9103B8008F3D2A /* RSA.m in Sources */,
+				044250731F307F4200213756 /* PAirSandbox.m in Sources */,
 				E760BB041D630253000B4BAA /* AppDelegate.m in Sources */,
 				E7A6527C1D6F57180036D064 /* AFNetworkReachabilityManager.m in Sources */,
 				E70542DB1D73DBD700343E66 /* HttpUtil.m in Sources */,
 				E70542FD1D74982500343E66 /* NSMutableAttributedString+EA.m in Sources */,
 				E7AE04071D990F1100BF5DA7 /* NSDictionary+NilSafe.m in Sources */,
 				E7A652871D6F585E0036D064 /* MBProgressHUD.m in Sources */,
+				0481DBBC1F289ADB0020544E /* NSObject+CurrentC.m in Sources */,
 				E78927A21D9103B8008F3D2A /* RSAUtil.m in Sources */,
 				E760BB011D630253000B4BAA /* main.m in Sources */,
 				E70542F71D74982500343E66 /* EAFDUtil.m in Sources */,
@@ -768,6 +800,7 @@
 				E7A6527E1D6F57180036D064 /* AFURLRequestSerialization.m in Sources */,
 				E7A6527A1D6F57180036D064 /* UIWebView+AFNetworking.m in Sources */,
 				E70542FC1D74982500343E66 /* NSDictionary+EA.m in Sources */,
+				0481DBB91F289ABC0020544E /* CameraManager.m in Sources */,
 				E760BB3A1D63034A000B4BAA /* TwoViewController.m in Sources */,
 				E70542FB1D74982500343E66 /* NSDate+EA.m in Sources */,
 				E7A652721D6F57180036D064 /* AFAutoPurgingImageCache.m in Sources */,
@@ -920,6 +953,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 9J5ZRW858N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $SRCROOT/ICanDoThis/PrefixHeader.pch;
 				INFOPLIST_FILE = ICanDoThis/Info.plist;
@@ -937,6 +971,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = 9J5ZRW858N;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = $SRCROOT/ICanDoThis/PrefixHeader.pch;
 				INFOPLIST_FILE = ICanDoThis/Info.plist;

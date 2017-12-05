@@ -8,12 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^myBlock)(id data, BOOL result);//定义一个myBlock类型，方便调用
+typedef void(^dBlock)(id data, BOOL result,UIImage *);//定义一个myBlock类型，方便调用
+
+//int(^bBlock)(NSString *x, UIImage *);
+
+//NSString *(^aBlock)(NSString *x, NSString *y);
 
 @interface FourViewController : UIViewController
 
-- (void)senMessageWith:(myBlock)block;
+- (void)senMessageWith:(dBlock)block;
 
+@property(nonatomic,copy)UIImage *(^imgBlock)(NSString *);
 
 //利用block链式编程
 //people方法返回block，block又返回FourViewController

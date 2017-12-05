@@ -12,12 +12,12 @@ static char kSomeKey;
 
 @implementation NSObject (Description)
 
-+ (void)load
-{
-    Method  a = class_getInstanceMethod(self, @selector(description));
-    Method  b = class_getInstanceMethod(self, @selector(descriptionDetail));
-    method_exchangeImplementations(a, b);
-}
+//+ (void)load
+//{
+//    Method  a = class_getInstanceMethod(self, @selector(description));
+//    Method  b = class_getInstanceMethod(self, @selector(descriptionDetail));
+//    method_exchangeImplementations(a, b);
+//}
 
 
 - (NSString *)descriptionDetail{

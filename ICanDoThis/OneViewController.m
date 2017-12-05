@@ -48,6 +48,7 @@ typedef enum {
 
 - (void)testXiaLa
 {
+    
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     
@@ -63,11 +64,14 @@ typedef enum {
     [self.navigationController.navigationBar setShadowImage:[[UIImage alloc] init]];
     
     UILabel *nameLabel = [[UILabel alloc] init];
-    nameLabel.text = @"U Can Do Too";
+    nameLabel.text = @"UU";
     [nameLabel sizeToFit];
     self.navigationItem.titleView = nameLabel;
     _nameLabel = nameLabel;
-    nameLabel.alpha = 0;
+    nameLabel.alpha =0;
+    
+    self.title = @"我是书";
+self.navigationController.title = @"我我我";
 }
 
 

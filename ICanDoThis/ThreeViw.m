@@ -29,18 +29,15 @@
 - (void)drawRect:(CGRect)rect
 {
     //绘制圆形  方法一：用UIKit在Cocoa为我们提供的当前上下文中完成绘图任务
-//    UIBezierPath * p = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(100, 100, 100, 100)];
-//    [[UIColor blueColor] setFill];
-//    [p fill];
+    UIBezierPath * p = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(0, 400, 100, 100)];
+    [[UIColor blueColor] setFill];
+    [p fill];
     
     //方法二：使用Core Graphics实现绘制蓝色圆
     //获得处理的上下文
     CGContextRef context = UIGraphicsGetCurrentContext();
-    
     CGContextAddEllipseInRect(context, CGRectMake(100,400,100,100));
-    
     CGContextSetFillColorWithColor(context, [UIColor redColor].CGColor);
-    
     CGContextFillPath(context);
     
     

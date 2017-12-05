@@ -7,6 +7,7 @@
 //
 
 #import "ThreeViewController.h"
+#import <UIImageView+WebCache.h>
 #import "ThreeViw.h"
 #import "PurchaseCarAnimationTool.h"
 #import "EASearchBar.h"
@@ -29,6 +30,10 @@
     self.navigationController.navigationBar.translucent = NO;
     self.title = @"哈";
     self.view.backgroundColor = [UIColor whiteColor];
+    
+[_imageView sd_setImageWithURL:@"" placeholderImage:nil completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+    
+}];
     
     _imageView = [[UIImageView alloc]initWithFrame:CGRectMake(100, 100, 80, 80)];
     [self.view addSubview:_imageView];

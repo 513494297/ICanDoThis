@@ -1,8 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TwoViewController">
@@ -15,53 +19,22 @@
             <rect key="frame" x="0.0" y="64" width="375" height="603"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ww8-aJ-kac">
-                    <rect key="frame" x="20" y="20" width="157.5" height="271.5"/>
-                    <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是我们" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TeD-XL-dTp">
-                            <rect key="frame" x="8" y="8" width="141.5" height="21"/>
-                            <constraints>
-                                <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="58" id="FA3-0X-2bl"/>
-                                <constraint firstAttribute="height" constant="21" id="rWX-rx-tUG"/>
-                            </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                            <nil key="highlightedColor"/>
-                        </label>
-                    </subviews>
-                    <color key="backgroundColor" red="0.57968458420000002" green="0.80872211019999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6FU-Nx-4hI">
+                    <rect key="frame" x="1" y="34" width="300" height="300"/>
+                    <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
-                        <constraint firstItem="TeD-XL-dTp" firstAttribute="top" secondItem="ww8-aJ-kac" secondAttribute="top" constant="8" id="Cqf-1C-lR3"/>
-                        <constraint firstItem="TeD-XL-dTp" firstAttribute="leading" secondItem="ww8-aJ-kac" secondAttribute="leading" constant="8" id="ZdH-jU-Xk3"/>
-                        <constraint firstAttribute="trailing" secondItem="TeD-XL-dTp" secondAttribute="trailing" constant="8" id="mIo-tw-rG8"/>
+                        <constraint firstAttribute="height" constant="300" id="Y3a-i5-elz"/>
+                        <constraint firstAttribute="width" constant="300" id="cSV-93-Cck"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nF-YK-LTV">
-                    <rect key="frame" x="20" y="311" width="335" height="271.5"/>
-                    <color key="backgroundColor" red="0.57968458420000002" green="0.80872211019999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JF6-MR-zAK">
-                    <rect key="frame" x="197" y="20" width="157.5" height="271.5"/>
-                    <color key="backgroundColor" red="0.57081344274125434" green="1" blue="0.52476523573493861" alpha="1" colorSpace="calibratedRGB"/>
-                </view>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="JF6-MR-zAK" secondAttribute="trailing" constant="20" id="0fg-OI-OQX"/>
-                <constraint firstItem="JF6-MR-zAK" firstAttribute="width" secondItem="ww8-aJ-kac" secondAttribute="width" id="6ol-ZK-YIr"/>
-                <constraint firstItem="ww8-aJ-kac" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="DQH-iw-QHh"/>
-                <constraint firstItem="JF6-MR-zAK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="20" id="JrA-8x-hBu"/>
-                <constraint firstAttribute="bottom" secondItem="4nF-YK-LTV" secondAttribute="bottom" constant="20" id="LiX-cr-bHZ"/>
-                <constraint firstItem="4nF-YK-LTV" firstAttribute="leading" secondItem="ww8-aJ-kac" secondAttribute="leading" id="Mc1-Wx-WGT"/>
-                <constraint firstItem="4nF-YK-LTV" firstAttribute="top" secondItem="ww8-aJ-kac" secondAttribute="bottom" constant="20" id="cD5-Gq-dLX"/>
-                <constraint firstItem="ww8-aJ-kac" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="cdk-ae-v6d"/>
-                <constraint firstItem="JF6-MR-zAK" firstAttribute="leading" secondItem="ww8-aJ-kac" secondAttribute="trailing" constant="20" id="h6J-ra-jFF"/>
-                <constraint firstItem="4nF-YK-LTV" firstAttribute="height" secondItem="ww8-aJ-kac" secondAttribute="height" id="iPj-rZ-My2"/>
-                <constraint firstItem="JF6-MR-zAK" firstAttribute="height" secondItem="ww8-aJ-kac" secondAttribute="height" id="ov1-KD-tYt"/>
-                <constraint firstItem="4nF-YK-LTV" firstAttribute="trailing" secondItem="JF6-MR-zAK" secondAttribute="trailing" id="qHK-6E-2TG"/>
+                <constraint firstItem="6FU-Nx-4hI" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="34" id="pCw-1u-ij4"/>
+                <constraint firstItem="6FU-Nx-4hI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="1" id="rDc-Ee-nzJ"/>
+                <constraint firstAttribute="trailing" secondItem="6FU-Nx-4hI" secondAttribute="trailing" constant="74" id="vsY-oI-CZV"/>
             </constraints>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="253.5" y="172.5"/>
         </view>
     </objects>
